@@ -17,6 +17,7 @@ LDFLAGS = -O
 
 $(PROJECT): $(OBJECTS)
 	g++ -o $@ $(OBJECTS) $(LDFLAGS) $(LIBS) -I$(ROOTINC) -L$(LIBRARIES)
+	#open tmp.pdf
 
 %.o : %.cxx $(INCLUDES)
 	g++ ${CFLAGS} -c -g -o $@ $< -I$(ROOTINC) -L$(LIBRARIES)
@@ -30,6 +31,7 @@ install:
 
 test:
 	./${PROJECT} ../PrSth.root
+	open tmp.pdf
 
 
 
