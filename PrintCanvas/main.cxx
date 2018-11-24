@@ -38,7 +38,6 @@ void PrintCanvas(char *s) {
 	TH1F *sigma0HF  = new TH1F("sigma0", "#Sigma^{0}(#lambda + #gamma) invariant mass", 100, 1.1, 1.7);
 	TH1F *sigma1HF  = new TH1F("sigma1", "#Sigma^{0}(#bar{#lambda} + #gamma) invariant mass", 100, 1.08, 1.3);
 
-
 	for (Int_t i = 0; i < (Int_t) kmfit->GetEntries(); i++) {
 		kmfit->GetEntry(i);
 		lamdHF->Fill(lamd);
@@ -72,7 +71,7 @@ int main(int argc, char *argv[]) {
 	TApplication *app = new TApplication("app", 0, 0);
 #endif
 	// cout << "Files count is: " << argc - 1 << endl;
-	
+
 
 	if(argc > 1) {
 		for (int i = 1; i < argc; i++) {
