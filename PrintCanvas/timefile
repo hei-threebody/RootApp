@@ -1,0 +1,586 @@
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.010  000.010: --- VIM STARTING ---
+000.166  000.156: Allocated generic buffers
+000.334  000.168: locale set
+000.360  000.026: GUI prepared
+000.364  000.004: clipboard setup
+000.375  000.011: window checked
+001.107  000.732: inits 1
+001.363  000.256: parsing arguments
+009.456  008.093: expanding arguments
+012.955  003.499: shell init
+013.328  000.373: Termcap init
+013.372  000.044: inits 2
+015.434  002.062: init highlight
+015.825  000.283  000.283: sourcing $VIM/vimrc
+016.525  000.304  000.304: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim
+016.661  000.548  000.244: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/syntax/synload.vim
+024.701  007.952  007.952: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/filetype.vim
+024.752  008.769  000.269: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/syntax/syntax.vim
+027.997  002.666  002.666: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/ftoff.vim
+028.417  000.242  000.242: sourcing /Users/hei_threebody/.vim/bundle/Vundle.vim/autoload/vundle.vim
+028.848  000.255  000.255: sourcing /Users/hei_threebody/.vim/bundle/Vundle.vim/autoload/vundle/config.vim
+064.799  000.042  000.042: sourcing /Users/hei_threebody/.vim/bundle/ultisnips/ftdetect/snippets.vim
+065.340  000.030  000.030: sourcing /Users/hei_threebody/.vim/bundle/vim-tmux/ftdetect/tmux.vim
+065.745  000.042  000.042: sourcing /Users/hei_threebody/.vim/bundle/swift.vim/ftdetect/swift.vim
+065.934  000.075  000.075: sourcing /Users/hei_threebody/.vim/bundle/requirements.txt.vim/ftdetect/requirements.vim
+066.061  000.024  000.024: sourcing /Users/hei_threebody/.vim/bundle/vim-vue/ftdetect/vue.vim
+066.366  000.181  000.181: sourcing /Users/hei_threebody/.vim/bundle/vim-javascript/ftdetect/javascript.vim
+066.513  000.024  000.024: sourcing /Users/hei_threebody/.vim/bundle/yats.vim/ftdetect/tsx.vim
+066.572  000.021  000.021: sourcing /Users/hei_threebody/.vim/bundle/yats.vim/ftdetect/typescript.vim
+066.737  000.059  000.059: sourcing /Users/hei_threebody/.vim/bundle/vim-coffee-script/ftdetect/coffee.vim
+066.809  000.033  000.033: sourcing /Users/hei_threebody/.vim/bundle/vim-coffee-script/ftdetect/vim-literate-coffeescript.vim
+066.945  000.051  000.051: sourcing /Users/hei_threebody/.vim/bundle/vim-toml/ftdetect/toml.vim
+067.230  000.065  000.065: sourcing /Users/hei_threebody/.vim/bundle/vim-markdown/ftdetect/markdown.vim
+067.490  000.151  000.151: sourcing /Users/hei_threebody/.vim/bundle/vim-applescript/ftdetect/applescript.vim
+067.632  000.028  000.028: sourcing /Users/hei_threebody/.vim/bundle/vim-perl/ftdetect/mason-in-html.vim
+067.732  000.062  000.062: sourcing /Users/hei_threebody/.vim/bundle/vim-perl/ftdetect/perl11.vim
+070.523  013.054  012.166: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/filetype.vim
+073.006  000.083  000.083: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/ftplugin.vim
+075.008  000.081  000.081: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/indent.vim
+075.798  050.652  034.271: sourcing /Users/hei_threebody/.vimrc.plugin
+104.115  028.237  028.237: sourcing /Users/hei_threebody/.vimrc.pluginrc
+113.913  000.263  000.263: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim
+115.874  000.230  000.230: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim
+126.515  021.455  020.962: sourcing /Users/hei_threebody/.vim/bundle/nord-vim/colors/nord.vim
+126.539  022.339  000.884: sourcing /Users/hei_threebody/.vimrc.local.file
+126.798  000.180  000.180: sourcing /Users/hei_threebody/.vimrc.maprc
+126.810  110.899  000.722: sourcing $HOME/.vimrc
+126.817  000.201: sourcing vimrc file(s)
+128.120  000.158  000.158: sourcing /Users/hei_threebody/.vim/bundle/ultisnips/autoload/UltiSnips/map_keys.vim
+128.254  000.730  000.572: sourcing /Users/hei_threebody/.vim/bundle/ultisnips/plugin/UltiSnips.vim
+128.507  000.072  000.072: sourcing /Users/hei_threebody/.vim/bundle/vim-snippets/plugin/vimsnippets.vim
+129.154  000.479  000.479: sourcing /Users/hei_threebody/.vim/bundle/YouCompleteMe/plugin/youcompleteme.vim
+130.869  001.526  001.526: sourcing /Users/hei_threebody/.vim/bundle/tagbar/plugin/tagbar.vim
+132.074  000.972  000.972: sourcing /Users/hei_threebody/.vim/bundle/taglist.vim/plugin/taglist.vim
+132.931  000.275  000.275: sourcing /Users/hei_threebody/.vim/bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim
+133.244  000.880  000.605: sourcing /Users/hei_threebody/.vim/bundle/ctrlp.vim/plugin/ctrlp.vim
+134.678  000.636  000.636: sourcing /Users/hei_threebody/.vim/bundle/ctrlsf.vim/autoload/ctrlsf/backend.vim
+135.913  002.359  001.723: sourcing /Users/hei_threebody/.vim/bundle/ctrlsf.vim/plugin/ctrlsf.vim
+136.592  000.236  000.236: sourcing /Users/hei_threebody/.vim/bundle/ZoomWin/plugin/ZoomWinPlugin.vim
+137.021  000.195  000.195: sourcing /Users/hei_threebody/.vim/bundle/autoscroll.vim/plugin/autoscroll.vim
+138.739  000.358  000.358: sourcing /Users/hei_threebody/.vim/bundle/nerdtree/autoload/nerdtree.vim
+140.580  000.764  000.764: sourcing /Users/hei_threebody/.vim/bundle/nerdtree/lib/nerdtree/path.vim
+141.067  000.254  000.254: sourcing /Users/hei_threebody/.vim/bundle/nerdtree/lib/nerdtree/menu_controller.vim
+141.467  000.172  000.172: sourcing /Users/hei_threebody/.vim/bundle/nerdtree/lib/nerdtree/menu_item.vim
+142.414  000.346  000.346: sourcing /Users/hei_threebody/.vim/bundle/nerdtree/lib/nerdtree/key_map.vim
+143.281  000.611  000.611: sourcing /Users/hei_threebody/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim
+144.058  000.532  000.532: sourcing /Users/hei_threebody/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim
+145.108  000.803  000.803: sourcing /Users/hei_threebody/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim
+146.199  000.480  000.480: sourcing /Users/hei_threebody/.vim/bundle/nerdtree/lib/nerdtree/opener.vim
+146.964  000.516  000.516: sourcing /Users/hei_threebody/.vim/bundle/nerdtree/lib/nerdtree/creator.vim
+147.327  000.130  000.130: sourcing /Users/hei_threebody/.vim/bundle/nerdtree/lib/nerdtree/flag_set.vim
+147.847  000.304  000.304: sourcing /Users/hei_threebody/.vim/bundle/nerdtree/lib/nerdtree/nerdtree.vim
+148.694  000.638  000.638: sourcing /Users/hei_threebody/.vim/bundle/nerdtree/lib/nerdtree/ui.vim
+148.993  000.078  000.078: sourcing /Users/hei_threebody/.vim/bundle/nerdtree/lib/nerdtree/event.vim
+149.321  000.115  000.115: sourcing /Users/hei_threebody/.vim/bundle/nerdtree/lib/nerdtree/notifier.vim
+150.722  001.165  001.165: sourcing /Users/hei_threebody/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim
+157.030  000.466  000.466: sourcing /Users/hei_threebody/.vim/bundle/nerdtree/nerdtree_plugin/exec_menuitem.vim
+159.307  002.198  002.198: sourcing /Users/hei_threebody/.vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim
+161.322  001.545  001.545: sourcing /Users/hei_threebody/.vim/bundle/nerdtree-git-plugin/nerdtree_plugin/git_status.vim
+164.361  000.487  000.487: sourcing /Users/hei_threebody/.vim/bundle/vim-devicons/nerdtree_plugin/webdevicons.vim
+167.269  030.020  018.058: sourcing /Users/hei_threebody/.vim/bundle/nerdtree/plugin/NERD_tree.vim
+167.528  000.071  000.071: sourcing /Users/hei_threebody/.vim/bundle/vim-windowswap/plugin/WindowSwap.vim
+168.115  000.452  000.452: sourcing /Users/hei_threebody/.vim/bundle/numbers.vim/plugin/numbers.vim
+168.644  000.253  000.253: sourcing /Users/hei_threebody/.vim/bundle/vim-minimap/plugin/minimap.vim
+169.005  000.153  000.153: sourcing /Users/hei_threebody/.vim/bundle/vim-which-key/plugin/which_key.vim
+170.390  001.251  001.251: sourcing /Users/hei_threebody/.vim/bundle/LeaderF/plugin/leaderf.vim
+170.651  000.084  000.084: sourcing /Users/hei_threebody/.vim/bundle/vim-automkdir/plugin/automkdir.vim
+171.115  000.303  000.303: sourcing /Users/hei_threebody/.vim/bundle/vim-wordy/plugin/wordy.vim
+180.224  008.967  008.967: sourcing /Users/hei_threebody/.vim/bundle/vim-easymotion/plugin/EasyMotion.vim
+180.834  000.416  000.416: sourcing /Users/hei_threebody/.vim/bundle/vim-multiple-cursors/plugin/multiple_cursors.vim
+186.247  005.203  005.203: sourcing /Users/hei_threebody/.vim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+186.434  000.116  000.116: sourcing /Users/hei_threebody/.vim/bundle/vim-align/plugin/AlignPlugin.vim
+187.027  000.551  000.551: sourcing /Users/hei_threebody/.vim/bundle/vim-align/plugin/cecutil.vim
+187.974  000.082  000.082: sourcing /Users/hei_threebody/.vim/bundle/wildfire.vim/autoload/wildfire/triggers.vim
+188.490  001.290  001.208: sourcing /Users/hei_threebody/.vim/bundle/wildfire.vim/plugin/wildfire.vim
+189.225  000.572  000.572: sourcing /Users/hei_threebody/.vim/bundle/LargeFile.vim/plugin/LargeFile.vim
+189.785  000.075  000.075: sourcing /Users/hei_threebody/.vim/bundle/splitjoin.vim/autoload/sj/settings.vim
+190.133  000.732  000.657: sourcing /Users/hei_threebody/.vim/bundle/splitjoin.vim/plugin/splitjoin.vim
+190.494  000.179  000.179: sourcing /Users/hei_threebody/.vim/bundle/vim-edgemotion/plugin/edgemotion.vim
+190.951  000.302  000.302: sourcing /Users/hei_threebody/.vim/bundle/vim-redacted/plugin/redacted.vim
+192.087  000.998  000.998: sourcing /Users/hei_threebody/.vim/bundle/vim-table-mode/plugin/table-mode.vim
+193.270  001.034  001.034: sourcing /Users/hei_threebody/.vim/bundle/vim-abolish/plugin/abolish.vim
+193.682  000.273  000.273: sourcing /Users/hei_threebody/.vim/bundle/targets.vim/plugin/targets.vim
+194.518  000.706  000.706: sourcing /Users/hei_threebody/.vim/bundle/vim-surround/plugin/surround.vim
+197.610  002.964  002.964: sourcing /Users/hei_threebody/.vim/bundle/emmet-vim/plugin/emmet.vim
+198.040  000.295  000.295: sourcing /Users/hei_threebody/.vim/bundle/tabular/plugin/Tabular.vim
+204.918  006.740  006.740: sourcing /Users/hei_threebody/.vim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+206.464  000.293  000.293: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/plugin/matchparen.vim
+207.623  000.325  000.325: sourcing /Users/hei_threebody/.vim/bundle/vim-matchup/autoload/matchup.vim
+208.113  000.172  000.172: sourcing /Users/hei_threebody/.vim/bundle/vim-matchup/autoload/matchup/perf.vim
+209.550  000.734  000.734: sourcing /Users/hei_threebody/.vim/bundle/vim-matchup/autoload/matchup/loader.vim
+210.742  000.709  000.709: sourcing /Users/hei_threebody/.vim/bundle/vim-matchup/autoload/matchup/matchparen.vim
+214.372  009.272  007.039: sourcing /Users/hei_threebody/.vim/bundle/vim-matchup/plugin/matchup.vim
+215.017  000.423  000.423: sourcing /Users/hei_threebody/.vim/bundle/vim-asterisk/plugin/asterisk.vim
+215.479  000.303  000.303: sourcing /Users/hei_threebody/.vim/bundle/clever-f.vim/plugin/clever-f.vim
+216.098  000.491  000.491: sourcing /Users/hei_threebody/.vim/bundle/vim-peekaboo/plugin/peekaboo.vim
+222.466  006.004  006.004: sourcing /Users/hei_threebody/.vim/bundle/vim-localvimrc/plugin/localvimrc.vim
+223.358  000.590  000.590: sourcing /Users/hei_threebody/.vim/bundle/vim-bbye/plugin/bbye.vim
+226.224  002.429  002.429: sourcing /Users/hei_threebody/.vim/bundle/vimux/plugin/vimux.vim
+226.827  000.307  000.307: sourcing /Users/hei_threebody/.vim/bundle/promptline.vim/plugin/promptline.vim
+228.512  001.341  001.341: sourcing /Users/hei_threebody/.vim/bundle/SingleCompile/plugin/SingleCompile.vim
+232.921  004.028  004.028: sourcing /Users/hei_threebody/.vim/bundle/asyncrun.vim/plugin/asyncrun.vim
+233.842  000.743  000.743: sourcing /Users/hei_threebody/.vim/bundle/vim-slime/plugin/slime.vim
+234.158  000.158  000.158: sourcing /Users/hei_threebody/.vim/bundle/codi.vim/plugin/codi.vim
+255.129  020.818  020.818: sourcing /Users/hei_threebody/.vim/bundle/vim-wakatime/plugin/wakatime.vim
+255.633  000.280  000.280: sourcing /Users/hei_threebody/.vim/bundle/vimproc.vim/plugin/vimproc.vim
+255.950  000.162  000.162: sourcing /Users/hei_threebody/.vim/bundle/stackanswers.vim/plugin/stackanswers.vim
+257.696  001.491  001.491: sourcing /Users/hei_threebody/.vim/bundle/srcexpl/plugin/srcexpl.vim
+257.980  000.107  000.107: sourcing /Users/hei_threebody/.vim/bundle/vim-github-dashboard/plugin/github_dashboard.vim
+263.875  005.748  005.748: sourcing /Users/hei_threebody/.vim/bundle/YankRing.vim/plugin/yankring.vim
+264.480  000.428  000.428: sourcing /Users/hei_threebody/.vim/bundle/vim-highlightedyank/plugin/highlightedyank.vim
+264.729  000.089  000.089: sourcing /Users/hei_threebody/.vim/bundle/rainbow/plugin/rainbow_main.vim
+265.028  000.165  000.165: sourcing /Users/hei_threebody/.vim/bundle/vim-cursorword/plugin/cursorword.vim
+267.027  001.865  001.865: sourcing /Users/hei_threebody/.vim/bundle/vim-bookmarks/plugin/bookmark.vim
+268.060  000.225  000.225: sourcing /Users/hei_threebody/.vim/bundle/vim-signature/autoload/signature/utils.vim
+269.608  002.439  002.214: sourcing /Users/hei_threebody/.vim/bundle/vim-signature/plugin/signature.vim
+269.896  000.083  000.083: sourcing /Users/hei_threebody/.vim/bundle/DrawIt/plugin/cecutil.vim
+270.283  000.342  000.342: sourcing /Users/hei_threebody/.vim/bundle/DrawIt/plugin/DrawItPlugin.vim
+270.690  000.225  000.225: sourcing /Users/hei_threebody/.vim/bundle/vim-FIGlet/plugin/FIGlet.vim
+270.910  000.060  000.060: sourcing /Users/hei_threebody/.vim/bundle/CommentReader/plugin/commentreader.vim
+272.563  001.515  001.515: sourcing /Users/hei_threebody/.vim/bundle/a.vim/plugin/a.vim
+273.107  000.364  000.364: sourcing /Users/hei_threebody/.vim/bundle/vim-protodef/plugin/protodef.vim
+273.359  000.123  000.123: sourcing /Users/hei_threebody/.vim/bundle/echodoc.vim/plugin/echodoc.vim
+274.121  000.587  000.587: sourcing /Users/hei_threebody/.vim/bundle/vim-fswitch/plugin/fswitch.vim
+274.394  000.143  000.143: sourcing /Users/hei_threebody/.vim/bundle/swift.vim/plugin/swift.vim
+274.902  000.331  000.331: sourcing /Users/hei_threebody/.vim/bundle/iCompleteMe/plugin/icm_placeholder_behavior.vim
+275.564  000.619  000.619: sourcing /Users/hei_threebody/.vim/bundle/iCompleteMe/plugin/icompleteme.vim
+276.486  000.166  000.166: sourcing /Users/hei_threebody/.vim/bundle/python-mode/autoload/pymode.vim
+277.569  000.061  000.061: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/filetype.vim
+279.271  000.038  000.038: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/ftplugin.vim
+282.045  000.039  000.039: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/filetype.vim
+283.576  000.025  000.025: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/ftplugin.vim
+284.425  008.721  008.392: sourcing /Users/hei_threebody/.vim/bundle/python-mode/plugin/pymode.vim
+284.723  000.144  000.144: sourcing /Users/hei_threebody/.vim/bundle/requirements.txt.vim/plugin/requirements.vim
+286.471  000.501  000.501: sourcing /Users/hei_threebody/.vim/bundle/vim-javacomplete2/autoload/javacomplete/util.vim
+287.752  002.485  001.984: sourcing /Users/hei_threebody/.vim/bundle/vim-javacomplete2/plugin/javacomplete.vim
+288.089  000.099  000.099: sourcing /Users/hei_threebody/.vim/bundle/vimdoc-cn/plugin/vimcdoc.vim
+288.413  000.182  000.182: sourcing /Users/hei_threebody/.vim/bundle/tagbar-markdown/plugin/markdown_tagbar.vim
+288.937  000.353  000.353: sourcing /Users/hei_threebody/.vim/bundle/vim-cmake/plugin/cmake.vim
+289.222  000.113  000.113: sourcing /Users/hei_threebody/.vim/bundle/goyo.vim/plugin/goyo.vim
+289.601  000.182  000.182: sourcing /Users/hei_threebody/.vim/bundle/limelight.vim/plugin/limelight.vim
+289.978  000.237  000.237: sourcing /Users/hei_threebody/.vim/bundle/lite-dfm/plugin/litedfm.vim
+292.506  002.389  002.389: sourcing /Users/hei_threebody/.vim/bundle/vim-devicons/plugin/webdevicons.vim
+293.967  000.188  000.188: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/init.vim
+295.185  000.172  000.172: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/parts.vim
+297.334  000.208  000.208: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/util.vim
+297.394  004.649  004.081: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/plugin/airline.vim
+297.625  000.067  000.067: sourcing /Users/hei_threebody/.vim/bundle/vim-airline-themes/plugin/airline-themes.vim
+298.022  000.268  000.268: sourcing /Users/hei_threebody/.vim/bundle/vim-startify/plugin/startify.vim
+299.245  000.257  000.257: sourcing /Users/hei_threebody/.vim/bundle/vim-indent-guides/autoload/indent_guides.vim
+299.812  001.644  001.387: sourcing /Users/hei_threebody/.vim/bundle/vim-indent-guides/plugin/indent_guides.vim
+300.342  000.369  000.369: sourcing /Users/hei_threebody/.vim/bundle/vim-pencil/plugin/pencil.vim
+300.614  000.137  000.137: sourcing /Users/hei_threebody/.vim/bundle/calendar.vim/plugin/calendar.vim
+302.263  000.496  000.496: sourcing /Users/hei_threebody/.vim/bundle/vimwiki/autoload/vimwiki/vars.vim
+303.617  000.169  000.169: sourcing /Users/hei_threebody/.vim/bundle/vimwiki/autoload/vimwiki/u.vim
+306.668  005.914  005.249: sourcing /Users/hei_threebody/.vim/bundle/vimwiki/plugin/vimwiki.vim
+307.012  000.107  000.107: sourcing /Users/hei_threebody/.vim/bundle/vim-misc/plugin/xolox/misc.vim
+308.103  000.070  000.070: sourcing /Users/hei_threebody/.vim/bundle/vim-misc/autoload/xolox/misc.vim
+311.772  000.288  000.288: sourcing /Users/hei_threebody/.vim/bundle/vim-misc/autoload/xolox/misc/os.vim
+312.037  001.362  001.074: sourcing /Users/hei_threebody/.vim/bundle/vim-misc/autoload/xolox/misc/path.vim
+312.754  003.903  002.541: sourcing /Users/hei_threebody/.vim/bundle/vim-notes/autoload/xolox/notes.vim
+314.505  007.360  003.387: sourcing /Users/hei_threebody/.vim/bundle/vim-notes/plugin/notes.vim
+315.024  000.356  000.356: sourcing /Users/hei_threebody/.vim/bundle/scratch.vim/plugin/scratch.vim
+319.037  003.873  003.873: sourcing /Users/hei_threebody/.vim/bundle/vim-grammarous/plugin/grammarous.vim
+319.400  000.219  000.219: sourcing /Users/hei_threebody/.vim/bundle/pangu.vim/plugin/pangu.vim
+320.029  000.398  000.398: sourcing /Users/hei_threebody/.vim/bundle/LanguageTool/plugin/LanguageTool.vim
+320.289  000.105  000.105: sourcing /Users/hei_threebody/.vim/bundle/dictionary.vim/plugin/dictionary.vim
+320.677  000.140  000.140: sourcing /Users/hei_threebody/.vim/bundle/vim-thematic/plugin/thematic/gui.vim
+321.941  000.259  000.259: sourcing /Users/hei_threebody/.vim/bundle/vim-thematic/autoload/thematic/gui.vim
+322.358  001.633  001.374: sourcing /Users/hei_threebody/.vim/bundle/vim-thematic/plugin/thematic.vim
+323.328  000.118  000.118: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/plugin/getscriptPlugin.vim
+323.760  000.380  000.380: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/plugin/gzip.vim
+324.122  000.311  000.311: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/plugin/logiPat.vim
+324.240  000.066  000.066: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/plugin/manpager.vim
+324.319  000.030  000.030: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/plugin/matchparen.vim
+325.655  001.288  001.288: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/plugin/netrwPlugin.vim
+325.847  000.099  000.099: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/plugin/rrhelper.vim
+325.972  000.063  000.063: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/plugin/spellfile.vim
+326.388  000.358  000.358: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/plugin/tarPlugin.vim
+326.591  000.142  000.142: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/plugin/tohtml.vim
+326.897  000.247  000.247: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/plugin/vimballPlugin.vim
+327.210  000.247  000.247: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/plugin/zipPlugin.vim
+327.292  019.535: loading plugins
+327.405  000.113: loading packages
+327.935  000.283  000.283: sourcing /Users/hei_threebody/.vim/bundle/ultisnips/after/plugin/UltiSnips_after.vim
+329.262  000.259  000.259: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline.vim
+329.299  001.128  000.869: sourcing /Users/hei_threebody/.vim/bundle/ctrlsf.vim/after/plugin/ctrlsf.vim
+329.758  000.177  000.177: sourcing /Users/hei_threebody/.vim/bundle/vim-automkdir/after/plugin/automkdir.vim
+331.060  000.441  000.441: sourcing /Users/hei_threebody/.vim/bundle/tabular/autoload/tabular.vim
+333.025  002.873  002.432: sourcing /Users/hei_threebody/.vim/bundle/tabular/after/plugin/TabularMaps.vim
+333.289  000.069  000.069: sourcing /Users/hei_threebody/.vim/bundle/vim-matchup/after/plugin/matchit.vim
+333.903  000.114  000.114: sourcing /Users/hei_threebody/.vim/bundle/vim-signature/after/plugin/signature.vim
+335.343  000.680  000.680: sourcing /Users/hei_threebody/.vim/bundle/indentLine/after/plugin/indentLine.vim
+335.687  002.958: loading after plugins
+335.698  000.011: inits 3
+341.819  006.121: reading viminfo
+341.885  000.066: setting raw mode
+341.894  000.009: start termcap
+341.934  000.040: clearing screen
+349.908  002.371  002.371: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/syntax/c.vim
+352.621  002.133  002.133: sourcing /Users/hei_threebody/.vim/bundle/vim-cpp-enhanced-highlight/after/syntax/c.vim
+353.679  007.010  002.506: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/syntax/cpp.vim
+361.342  006.364  006.364: sourcing /Users/hei_threebody/.vim/bundle/vim-cpp-enhanced-highlight/after/syntax/cpp.vim
+372.124  000.209  000.209: sourcing /Users/hei_threebody/.vim/bundle/splitjoin.vim/ftplugin/c/splitjoin.vim
+377.583  000.535  000.535: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/ftplugin/c.vim
+379.776  000.222  000.222: sourcing /Users/hei_threebody/.vim/bundle/vim-matchup/after/ftplugin/c_matchup.vim
+382.359  012.010  011.044: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/ftplugin/cpp.vim
+387.610  000.103  000.103: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/indent/cpp.vim
+389.633  000.306  000.306: sourcing /Users/hei_threebody/.vim/bundle/vim-matchup/autoload/matchup/util.vim
+395.812  000.131  000.131: sourcing /Users/hei_threebody/.vim/bundle/vim-matchup/autoload/matchup/re.vim
+406.681  000.597  000.597: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/extensions.vim
+407.771  000.167  000.167: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/extensions/quickfix.vim
+408.828  000.133  000.133: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/extensions/netrw.vim
+409.782  000.107  000.107: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/extensions/term.vim
+410.828  000.195  000.195: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/extensions/ctrlp.vim
+411.910  000.167  000.167: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/extensions/tagbar.vim
+412.891  000.126  000.126: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/extensions/csv.vim
+414.187  000.294  000.294: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/extensions/whitespace.vim
+415.618  000.255  000.255: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/extensions/wordcount.vim
+416.833  000.347  000.347: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/extensions/tabline.vim
+417.910  000.165  000.165: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/extensions/tabline/autoshow.vim
+419.220  000.245  000.245: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/extensions/tabline/tabs.vim
+420.657  000.411  000.411: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/extensions/tabline/buffers.vim
+422.009  000.153  000.153: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/extensions/keymap.vim
+423.245  000.155  000.155: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/extensions/windowswap.vim
+429.083  005.088  005.088: sourcing /Users/hei_threebody/.vim/bundle/vimtex/autoload/vimtex.vim
+430.385  000.324  000.324: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/extensions/vimtex.vim
+442.220  000.233  000.233: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/section.vim
+443.629  000.444  000.444: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/highlighter.vim
+449.575  000.176  000.176: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/themes.vim
+449.897  001.493  001.317: sourcing /Users/hei_threebody/.vim/bundle/nord-vim/autoload/airline/themes/nord.vim
+475.736  000.430  000.430: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/builder.vim
+477.158  000.235  000.235: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/extensions/default.vim
+551.296  000.400  000.400: sourcing /Users/hei_threebody/.vim/bundle/ctrlp.vim/autoload/ctrlp/utils.vim
+555.098  175.076: opening buffers
+555.738  000.305  000.305: sourcing /Users/hei_threebody/.vim/bundle/LeaderF/autoload/lfMru.vim
+556.936  000.408  000.408: sourcing /Users/hei_threebody/.vim/bundle/vim-peekaboo/autoload/peekaboo.vim
+559.231  000.214  000.214: sourcing /Users/hei_threebody/.vim/bundle/vim-cursorword/autoload/cursorword.vim
+560.332  000.524  000.524: sourcing /Users/hei_threebody/.vim/bundle/vim-signature/autoload/signature/sign.vim
+561.626  000.588  000.588: sourcing /Users/hei_threebody/.vim/bundle/vim-signature/autoload/signature/mark.vim
+568.241  011.104: BufEnter autocommands
+568.253  000.012: editing files in windows
+570.159  001.422  001.422: sourcing /Users/hei_threebody/.vim/bundle/YouCompleteMe/autoload/youcompleteme.vim
+710.139  000.638  000.638: sourcing /Users/hei_threebody/.vim/bundle/vim-bookmarks/autoload/bm.vim
+712.619  001.217  001.217: sourcing /Users/hei_threebody/.vim/bundle/iCompleteMe/autoload/icompleteme.vim
+738.414  166.884: VimEnter autocommands
+738.463  000.049: before starting main loop
+743.420  002.555  002.555: sourcing /Users/hei_threebody/.vim/bundle/vim-matchup/autoload/matchup/pos.vim
+747.169  001.790  001.790: sourcing /Users/hei_threebody/.vim/bundle/vim-matchup/autoload/matchup/delim.vim
+755.192  000.749  000.749: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/extensions/tabline/ctrlspace.vim
+758.815  000.947  000.947: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/extensions/tabline/builder.vim
+762.818  000.359  000.359: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/extensions/tabline/buflist.vim
+785.936  000.197  000.197: sourcing /Users/hei_threebody/.vim/bundle/vim-devicons/autoload/airline/extensions/tabline/formatters/webdevicons.vim
+788.449  000.301  000.301: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/extensions/tabline/formatters/default.vim
+866.673  004.505  004.505: sourcing /Users/hei_threebody/.vim/bundle/tagbar/autoload/tagbar.vim
+868.014  000.317  000.317: sourcing /Users/hei_threebody/.vim/bundle/tagbar/autoload/tagbar/debug.vim
+964.065  001.549  001.549: sourcing /Users/hei_threebody/.vim/bundle/tagbar/autoload/tagbar/types/uctags.vim
+964.867  000.437  000.437: sourcing /Users/hei_threebody/.vim/bundle/tagbar/autoload/tagbar/prototypes/typeinfo.vim
+988.966  000.323  000.323: sourcing /Users/hei_threebody/.vim/bundle/tagbar/autoload/tagbar/prototypes/fileinfo.vim
+1018.135  000.699  000.699: sourcing /Users/hei_threebody/.vim/bundle/tagbar/autoload/tagbar/prototypes/normaltag.vim
+1018.781  000.398  000.398: sourcing /Users/hei_threebody/.vim/bundle/tagbar/autoload/tagbar/prototypes/basetag.vim
+1022.571  000.248  000.248: sourcing /Users/hei_threebody/.vim/bundle/tagbar/autoload/tagbar/prototypes/kindheadertag.vim
+1023.691  000.279  000.279: sourcing /Users/hei_threebody/.vim/bundle/tagbar/autoload/tagbar/sorting.vim
+1024.811  000.278  000.278: sourcing /Users/hei_threebody/.vim/bundle/tagbar/autoload/tagbar/state.vim
+1027.039  000.451  000.451: sourcing /Users/hei_threebody/.vim/bundle/vim-windowswap/autoload/WindowSwap.vim
+1039.228  285.383: first screen update
+1039.232  000.004: --- VIM STARTED ---
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.010  000.010: --- VIM STARTING ---
+000.129  000.119: Allocated generic buffers
+000.275  000.146: locale set
+000.297  000.022: GUI prepared
+000.300  000.003: clipboard setup
+000.310  000.010: window checked
+001.027  000.717: inits 1
+001.235  000.208: parsing arguments
+006.895  005.660: expanding arguments
+010.135  003.240: shell init
+010.431  000.296: Termcap init
+010.473  000.042: inits 2
+012.362  001.889: init highlight
+012.742  000.272  000.272: sourcing $VIM/vimrc
+013.389  000.292  000.292: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim
+013.515  000.523  000.231: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/syntax/synload.vim
+020.824  007.218  007.218: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/filetype.vim
+020.877  008.013  000.272: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/syntax/syntax.vim
+022.985  001.547  001.547: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/ftoff.vim
+023.382  000.240  000.240: sourcing /Users/hei_threebody/.vim/bundle/Vundle.vim/autoload/vundle.vim
+023.699  000.191  000.191: sourcing /Users/hei_threebody/.vim/bundle/Vundle.vim/autoload/vundle/config.vim
+056.778  000.048  000.048: sourcing /Users/hei_threebody/.vim/bundle/ultisnips/ftdetect/snippets.vim
+057.324  000.029  000.029: sourcing /Users/hei_threebody/.vim/bundle/vim-tmux/ftdetect/tmux.vim
+057.770  000.048  000.048: sourcing /Users/hei_threebody/.vim/bundle/swift.vim/ftdetect/swift.vim
+057.966  000.081  000.081: sourcing /Users/hei_threebody/.vim/bundle/requirements.txt.vim/ftdetect/requirements.vim
+058.095  000.024  000.024: sourcing /Users/hei_threebody/.vim/bundle/vim-vue/ftdetect/vue.vim
+058.387  000.170  000.170: sourcing /Users/hei_threebody/.vim/bundle/vim-javascript/ftdetect/javascript.vim
+058.532  000.023  000.023: sourcing /Users/hei_threebody/.vim/bundle/yats.vim/ftdetect/tsx.vim
+058.595  000.021  000.021: sourcing /Users/hei_threebody/.vim/bundle/yats.vim/ftdetect/typescript.vim
+058.765  000.059  000.059: sourcing /Users/hei_threebody/.vim/bundle/vim-coffee-script/ftdetect/coffee.vim
+058.839  000.033  000.033: sourcing /Users/hei_threebody/.vim/bundle/vim-coffee-script/ftdetect/vim-literate-coffeescript.vim
+058.974  000.051  000.051: sourcing /Users/hei_threebody/.vim/bundle/vim-toml/ftdetect/toml.vim
+059.160  000.050  000.050: sourcing /Users/hei_threebody/.vim/bundle/vim-markdown/ftdetect/markdown.vim
+059.365  000.110  000.110: sourcing /Users/hei_threebody/.vim/bundle/vim-applescript/ftdetect/applescript.vim
+059.502  000.027  000.027: sourcing /Users/hei_threebody/.vim/bundle/vim-perl/ftdetect/mason-in-html.vim
+059.599  000.060  000.060: sourcing /Users/hei_threebody/.vim/bundle/vim-perl/ftdetect/perl11.vim
+061.413  011.763  010.929: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/filetype.vim
+063.056  000.063  000.063: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/ftplugin.vim
+064.866  000.082  000.082: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/indent.vim
+065.651  044.396  030.510: sourcing /Users/hei_threebody/.vimrc.plugin
+102.410  036.690  036.690: sourcing /Users/hei_threebody/.vimrc.pluginrc
+113.996  000.346  000.346: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim
+117.433  000.522  000.522: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/syntax/syncolor.vim
+133.201  029.766  028.898: sourcing /Users/hei_threebody/.vim/bundle/nord-vim/colors/nord.vim
+133.228  030.734  000.968: sourcing /Users/hei_threebody/.vimrc.local.file
+133.610  000.266  000.266: sourcing /Users/hei_threebody/.vimrc.maprc
+133.630  120.836  000.737: sourcing $HOME/.vimrc
+133.640  000.170: sourcing vimrc file(s)
+135.213  000.201  000.201: sourcing /Users/hei_threebody/.vim/bundle/ultisnips/autoload/UltiSnips/map_keys.vim
+135.388  000.887  000.686: sourcing /Users/hei_threebody/.vim/bundle/ultisnips/plugin/UltiSnips.vim
+135.774  000.110  000.110: sourcing /Users/hei_threebody/.vim/bundle/vim-snippets/plugin/vimsnippets.vim
+136.666  000.664  000.664: sourcing /Users/hei_threebody/.vim/bundle/YouCompleteMe/plugin/youcompleteme.vim
+138.837  001.941  001.941: sourcing /Users/hei_threebody/.vim/bundle/tagbar/plugin/tagbar.vim
+139.601  000.580  000.580: sourcing /Users/hei_threebody/.vim/bundle/taglist.vim/plugin/taglist.vim
+140.285  000.279  000.279: sourcing /Users/hei_threebody/.vim/bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim
+140.578  000.835  000.556: sourcing /Users/hei_threebody/.vim/bundle/ctrlp.vim/plugin/ctrlp.vim
+141.301  000.389  000.389: sourcing /Users/hei_threebody/.vim/bundle/ctrlsf.vim/autoload/ctrlsf/backend.vim
+141.994  001.282  000.893: sourcing /Users/hei_threebody/.vim/bundle/ctrlsf.vim/plugin/ctrlsf.vim
+142.245  000.114  000.114: sourcing /Users/hei_threebody/.vim/bundle/ZoomWin/plugin/ZoomWinPlugin.vim
+142.466  000.086  000.086: sourcing /Users/hei_threebody/.vim/bundle/autoscroll.vim/plugin/autoscroll.vim
+143.379  000.192  000.192: sourcing /Users/hei_threebody/.vim/bundle/nerdtree/autoload/nerdtree.vim
+144.805  000.591  000.591: sourcing /Users/hei_threebody/.vim/bundle/nerdtree/lib/nerdtree/path.vim
+145.094  000.154  000.154: sourcing /Users/hei_threebody/.vim/bundle/nerdtree/lib/nerdtree/menu_controller.vim
+145.322  000.101  000.101: sourcing /Users/hei_threebody/.vim/bundle/nerdtree/lib/nerdtree/menu_item.vim
+145.586  000.140  000.140: sourcing /Users/hei_threebody/.vim/bundle/nerdtree/lib/nerdtree/key_map.vim
+146.041  000.330  000.330: sourcing /Users/hei_threebody/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim
+146.452  000.280  000.280: sourcing /Users/hei_threebody/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim
+147.144  000.562  000.562: sourcing /Users/hei_threebody/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim
+147.547  000.257  000.257: sourcing /Users/hei_threebody/.vim/bundle/nerdtree/lib/nerdtree/opener.vim
+147.956  000.280  000.280: sourcing /Users/hei_threebody/.vim/bundle/nerdtree/lib/nerdtree/creator.vim
+148.155  000.072  000.072: sourcing /Users/hei_threebody/.vim/bundle/nerdtree/lib/nerdtree/flag_set.vim
+148.448  000.167  000.167: sourcing /Users/hei_threebody/.vim/bundle/nerdtree/lib/nerdtree/nerdtree.vim
+148.917  000.347  000.347: sourcing /Users/hei_threebody/.vim/bundle/nerdtree/lib/nerdtree/ui.vim
+149.085  000.042  000.042: sourcing /Users/hei_threebody/.vim/bundle/nerdtree/lib/nerdtree/event.vim
+149.274  000.064  000.064: sourcing /Users/hei_threebody/.vim/bundle/nerdtree/lib/nerdtree/notifier.vim
+149.881  000.462  000.462: sourcing /Users/hei_threebody/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim
+153.019  000.149  000.149: sourcing /Users/hei_threebody/.vim/bundle/nerdtree/nerdtree_plugin/exec_menuitem.vim
+153.832  000.769  000.769: sourcing /Users/hei_threebody/.vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim
+154.739  000.664  000.664: sourcing /Users/hei_threebody/.vim/bundle/nerdtree-git-plugin/nerdtree_plugin/git_status.vim
+156.581  000.446  000.446: sourcing /Users/hei_threebody/.vim/bundle/vim-devicons/nerdtree_plugin/webdevicons.vim
+159.246  016.653  010.584: sourcing /Users/hei_threebody/.vim/bundle/nerdtree/plugin/NERD_tree.vim
+159.454  000.061  000.061: sourcing /Users/hei_threebody/.vim/bundle/vim-windowswap/plugin/WindowSwap.vim
+159.961  000.377  000.377: sourcing /Users/hei_threebody/.vim/bundle/numbers.vim/plugin/numbers.vim
+160.234  000.137  000.137: sourcing /Users/hei_threebody/.vim/bundle/vim-minimap/plugin/minimap.vim
+160.491  000.129  000.129: sourcing /Users/hei_threebody/.vim/bundle/vim-which-key/plugin/which_key.vim
+161.428  000.813  000.813: sourcing /Users/hei_threebody/.vim/bundle/LeaderF/plugin/leaderf.vim
+161.623  000.063  000.063: sourcing /Users/hei_threebody/.vim/bundle/vim-automkdir/plugin/automkdir.vim
+162.062  000.296  000.296: sourcing /Users/hei_threebody/.vim/bundle/vim-wordy/plugin/wordy.vim
+169.152  006.952  006.952: sourcing /Users/hei_threebody/.vim/bundle/vim-easymotion/plugin/EasyMotion.vim
+169.741  000.403  000.403: sourcing /Users/hei_threebody/.vim/bundle/vim-multiple-cursors/plugin/multiple_cursors.vim
+174.609  004.666  004.666: sourcing /Users/hei_threebody/.vim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+174.762  000.107  000.107: sourcing /Users/hei_threebody/.vim/bundle/vim-align/plugin/AlignPlugin.vim
+175.317  000.515  000.515: sourcing /Users/hei_threebody/.vim/bundle/vim-align/plugin/cecutil.vim
+175.923  000.055  000.055: sourcing /Users/hei_threebody/.vim/bundle/wildfire.vim/autoload/wildfire/triggers.vim
+176.363  000.886  000.831: sourcing /Users/hei_threebody/.vim/bundle/wildfire.vim/plugin/wildfire.vim
+176.764  000.267  000.267: sourcing /Users/hei_threebody/.vim/bundle/LargeFile.vim/plugin/LargeFile.vim
+177.247  000.067  000.067: sourcing /Users/hei_threebody/.vim/bundle/splitjoin.vim/autoload/sj/settings.vim
+177.540  000.647  000.580: sourcing /Users/hei_threebody/.vim/bundle/splitjoin.vim/plugin/splitjoin.vim
+177.785  000.114  000.114: sourcing /Users/hei_threebody/.vim/bundle/vim-edgemotion/plugin/edgemotion.vim
+178.080  000.170  000.170: sourcing /Users/hei_threebody/.vim/bundle/vim-redacted/plugin/redacted.vim
+179.148  000.934  000.934: sourcing /Users/hei_threebody/.vim/bundle/vim-table-mode/plugin/table-mode.vim
+180.253  000.970  000.970: sourcing /Users/hei_threebody/.vim/bundle/vim-abolish/plugin/abolish.vim
+180.662  000.269  000.269: sourcing /Users/hei_threebody/.vim/bundle/targets.vim/plugin/targets.vim
+181.473  000.679  000.679: sourcing /Users/hei_threebody/.vim/bundle/vim-surround/plugin/surround.vim
+185.079  003.477  003.477: sourcing /Users/hei_threebody/.vim/bundle/emmet-vim/plugin/emmet.vim
+185.581  000.315  000.315: sourcing /Users/hei_threebody/.vim/bundle/tabular/plugin/Tabular.vim
+191.819  006.097  006.097: sourcing /Users/hei_threebody/.vim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+193.360  000.254  000.254: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/plugin/matchparen.vim
+194.379  000.305  000.305: sourcing /Users/hei_threebody/.vim/bundle/vim-matchup/autoload/matchup.vim
+194.865  000.172  000.172: sourcing /Users/hei_threebody/.vim/bundle/vim-matchup/autoload/matchup/perf.vim
+196.224  000.700  000.700: sourcing /Users/hei_threebody/.vim/bundle/vim-matchup/autoload/matchup/loader.vim
+197.483  000.789  000.789: sourcing /Users/hei_threebody/.vim/bundle/vim-matchup/autoload/matchup/matchparen.vim
+201.459  009.472  007.252: sourcing /Users/hei_threebody/.vim/bundle/vim-matchup/plugin/matchup.vim
+201.944  000.299  000.299: sourcing /Users/hei_threebody/.vim/bundle/vim-asterisk/plugin/asterisk.vim
+202.359  000.285  000.285: sourcing /Users/hei_threebody/.vim/bundle/clever-f.vim/plugin/clever-f.vim
+202.805  000.318  000.318: sourcing /Users/hei_threebody/.vim/bundle/vim-peekaboo/plugin/peekaboo.vim
+204.456  001.525  001.525: sourcing /Users/hei_threebody/.vim/bundle/vim-localvimrc/plugin/localvimrc.vim
+204.775  000.185  000.185: sourcing /Users/hei_threebody/.vim/bundle/vim-bbye/plugin/bbye.vim
+205.397  000.494  000.494: sourcing /Users/hei_threebody/.vim/bundle/vimux/plugin/vimux.vim
+205.673  000.130  000.130: sourcing /Users/hei_threebody/.vim/bundle/promptline.vim/plugin/promptline.vim
+206.125  000.324  000.324: sourcing /Users/hei_threebody/.vim/bundle/SingleCompile/plugin/SingleCompile.vim
+207.810  001.555  001.555: sourcing /Users/hei_threebody/.vim/bundle/asyncrun.vim/plugin/asyncrun.vim
+208.645  000.698  000.698: sourcing /Users/hei_threebody/.vim/bundle/vim-slime/plugin/slime.vim
+208.903  000.125  000.125: sourcing /Users/hei_threebody/.vim/bundle/codi.vim/plugin/codi.vim
+231.112  022.078  022.078: sourcing /Users/hei_threebody/.vim/bundle/vim-wakatime/plugin/wakatime.vim
+231.779  000.384  000.384: sourcing /Users/hei_threebody/.vim/bundle/vimproc.vim/plugin/vimproc.vim
+232.142  000.107  000.107: sourcing /Users/hei_threebody/.vim/bundle/stackanswers.vim/plugin/stackanswers.vim
+235.383  003.024  003.024: sourcing /Users/hei_threebody/.vim/bundle/srcexpl/plugin/srcexpl.vim
+235.955  000.207  000.207: sourcing /Users/hei_threebody/.vim/bundle/vim-github-dashboard/plugin/github_dashboard.vim
+245.664  009.444  009.444: sourcing /Users/hei_threebody/.vim/bundle/YankRing.vim/plugin/yankring.vim
+246.665  000.701  000.701: sourcing /Users/hei_threebody/.vim/bundle/vim-highlightedyank/plugin/highlightedyank.vim
+247.163  000.184  000.184: sourcing /Users/hei_threebody/.vim/bundle/rainbow/plugin/rainbow_main.vim
+247.780  000.363  000.363: sourcing /Users/hei_threebody/.vim/bundle/vim-cursorword/plugin/cursorword.vim
+252.961  004.915  004.915: sourcing /Users/hei_threebody/.vim/bundle/vim-bookmarks/plugin/bookmark.vim
+254.971  000.497  000.497: sourcing /Users/hei_threebody/.vim/bundle/vim-signature/autoload/signature/utils.vim
+257.647  004.386  003.889: sourcing /Users/hei_threebody/.vim/bundle/vim-signature/plugin/signature.vim
+258.139  000.157  000.157: sourcing /Users/hei_threebody/.vim/bundle/DrawIt/plugin/cecutil.vim
+258.795  000.583  000.583: sourcing /Users/hei_threebody/.vim/bundle/DrawIt/plugin/DrawItPlugin.vim
+259.351  000.284  000.284: sourcing /Users/hei_threebody/.vim/bundle/vim-FIGlet/plugin/FIGlet.vim
+259.706  000.098  000.098: sourcing /Users/hei_threebody/.vim/bundle/CommentReader/plugin/commentreader.vim
+262.496  002.552  002.552: sourcing /Users/hei_threebody/.vim/bundle/a.vim/plugin/a.vim
+263.445  000.683  000.683: sourcing /Users/hei_threebody/.vim/bundle/vim-protodef/plugin/protodef.vim
+264.379  000.505  000.505: sourcing /Users/hei_threebody/.vim/bundle/echodoc.vim/plugin/echodoc.vim
+266.096  001.252  001.252: sourcing /Users/hei_threebody/.vim/bundle/vim-fswitch/plugin/fswitch.vim
+266.533  000.173  000.173: sourcing /Users/hei_threebody/.vim/bundle/swift.vim/plugin/swift.vim
+267.471  000.620  000.620: sourcing /Users/hei_threebody/.vim/bundle/iCompleteMe/plugin/icm_placeholder_behavior.vim
+269.133  001.536  001.536: sourcing /Users/hei_threebody/.vim/bundle/iCompleteMe/plugin/icompleteme.vim
+271.193  000.357  000.357: sourcing /Users/hei_threebody/.vim/bundle/python-mode/autoload/pymode.vim
+273.067  000.080  000.080: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/filetype.vim
+276.384  000.066  000.066: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/ftplugin.vim
+282.262  000.103  000.103: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/filetype.vim
+284.933  000.058  000.058: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/ftplugin.vim
+285.946  016.385  015.721: sourcing /Users/hei_threebody/.vim/bundle/python-mode/plugin/pymode.vim
+286.282  000.159  000.159: sourcing /Users/hei_threebody/.vim/bundle/requirements.txt.vim/plugin/requirements.vim
+288.499  000.622  000.622: sourcing /Users/hei_threebody/.vim/bundle/vim-javacomplete2/autoload/javacomplete/util.vim
+289.849  002.882  002.260: sourcing /Users/hei_threebody/.vim/bundle/vim-javacomplete2/plugin/javacomplete.vim
+290.212  000.107  000.107: sourcing /Users/hei_threebody/.vim/bundle/vimdoc-cn/plugin/vimcdoc.vim
+290.553  000.192  000.192: sourcing /Users/hei_threebody/.vim/bundle/tagbar-markdown/plugin/markdown_tagbar.vim
+291.034  000.302  000.302: sourcing /Users/hei_threebody/.vim/bundle/vim-cmake/plugin/cmake.vim
+291.261  000.075  000.075: sourcing /Users/hei_threebody/.vim/bundle/goyo.vim/plugin/goyo.vim
+291.535  000.148  000.148: sourcing /Users/hei_threebody/.vim/bundle/limelight.vim/plugin/limelight.vim
+291.990  000.246  000.246: sourcing /Users/hei_threebody/.vim/bundle/lite-dfm/plugin/litedfm.vim
+294.664  002.528  002.528: sourcing /Users/hei_threebody/.vim/bundle/vim-devicons/plugin/webdevicons.vim
+296.021  000.181  000.181: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/init.vim
+297.442  000.205  000.205: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/parts.vim
+299.502  000.209  000.209: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/util.vim
+299.568  004.734  004.139: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/plugin/airline.vim
+299.803  000.072  000.072: sourcing /Users/hei_threebody/.vim/bundle/vim-airline-themes/plugin/airline-themes.vim
+300.207  000.272  000.272: sourcing /Users/hei_threebody/.vim/bundle/vim-startify/plugin/startify.vim
+301.774  000.294  000.294: sourcing /Users/hei_threebody/.vim/bundle/vim-indent-guides/autoload/indent_guides.vim
+302.442  002.088  001.794: sourcing /Users/hei_threebody/.vim/bundle/vim-indent-guides/plugin/indent_guides.vim
+303.030  000.391  000.391: sourcing /Users/hei_threebody/.vim/bundle/vim-pencil/plugin/pencil.vim
+303.347  000.166  000.166: sourcing /Users/hei_threebody/.vim/bundle/calendar.vim/plugin/calendar.vim
+305.073  000.516  000.516: sourcing /Users/hei_threebody/.vim/bundle/vimwiki/autoload/vimwiki/vars.vim
+306.435  000.158  000.158: sourcing /Users/hei_threebody/.vim/bundle/vimwiki/autoload/vimwiki/u.vim
+309.239  005.754  005.080: sourcing /Users/hei_threebody/.vim/bundle/vimwiki/plugin/vimwiki.vim
+309.552  000.105  000.105: sourcing /Users/hei_threebody/.vim/bundle/vim-misc/plugin/xolox/misc.vim
+310.721  000.085  000.085: sourcing /Users/hei_threebody/.vim/bundle/vim-misc/autoload/xolox/misc.vim
+314.745  000.277  000.277: sourcing /Users/hei_threebody/.vim/bundle/vim-misc/autoload/xolox/misc/os.vim
+314.972  001.387  001.110: sourcing /Users/hei_threebody/.vim/bundle/vim-misc/autoload/xolox/misc/path.vim
+315.683  004.140  002.753: sourcing /Users/hei_threebody/.vim/bundle/vim-notes/autoload/xolox/notes.vim
+317.894  008.209  003.984: sourcing /Users/hei_threebody/.vim/bundle/vim-notes/plugin/notes.vim
+318.571  000.388  000.388: sourcing /Users/hei_threebody/.vim/bundle/scratch.vim/plugin/scratch.vim
+323.258  004.516  004.516: sourcing /Users/hei_threebody/.vim/bundle/vim-grammarous/plugin/grammarous.vim
+323.637  000.211  000.211: sourcing /Users/hei_threebody/.vim/bundle/pangu.vim/plugin/pangu.vim
+324.172  000.391  000.391: sourcing /Users/hei_threebody/.vim/bundle/LanguageTool/plugin/LanguageTool.vim
+324.434  000.110  000.110: sourcing /Users/hei_threebody/.vim/bundle/dictionary.vim/plugin/dictionary.vim
+324.803  000.147  000.147: sourcing /Users/hei_threebody/.vim/bundle/vim-thematic/plugin/thematic/gui.vim
+326.096  000.263  000.263: sourcing /Users/hei_threebody/.vim/bundle/vim-thematic/autoload/thematic/gui.vim
+326.435  001.582  001.319: sourcing /Users/hei_threebody/.vim/bundle/vim-thematic/plugin/thematic.vim
+327.780  000.142  000.142: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/plugin/getscriptPlugin.vim
+328.241  000.404  000.404: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/plugin/gzip.vim
+328.625  000.327  000.327: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/plugin/logiPat.vim
+328.747  000.068  000.068: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/plugin/manpager.vim
+328.828  000.030  000.030: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/plugin/matchparen.vim
+329.840  000.961  000.961: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/plugin/netrwPlugin.vim
+330.029  000.108  000.108: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/plugin/rrhelper.vim
+330.225  000.094  000.094: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/plugin/spellfile.vim
+330.633  000.344  000.344: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/plugin/tarPlugin.vim
+330.849  000.148  000.148: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/plugin/tohtml.vim
+331.259  000.350  000.350: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/plugin/vimballPlugin.vim
+331.650  000.314  000.314: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/plugin/zipPlugin.vim
+331.734  020.502: loading plugins
+331.843  000.109: loading packages
+332.411  000.307  000.307: sourcing /Users/hei_threebody/.vim/bundle/ultisnips/after/plugin/UltiSnips_after.vim
+333.832  000.275  000.275: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline.vim
+333.872  001.188  000.913: sourcing /Users/hei_threebody/.vim/bundle/ctrlsf.vim/after/plugin/ctrlsf.vim
+334.727  000.429  000.429: sourcing /Users/hei_threebody/.vim/bundle/vim-automkdir/after/plugin/automkdir.vim
+337.142  001.389  001.389: sourcing /Users/hei_threebody/.vim/bundle/tabular/autoload/tabular.vim
+340.617  005.419  005.030: sourcing /Users/hei_threebody/.vim/bundle/tabular/after/plugin/TabularMaps.vim
+340.915  000.081  000.081: sourcing /Users/hei_threebody/.vim/bundle/vim-matchup/after/plugin/matchit.vim
+341.557  000.126  000.126: sourcing /Users/hei_threebody/.vim/bundle/vim-signature/after/plugin/signature.vim
+343.034  000.711  000.711: sourcing /Users/hei_threebody/.vim/bundle/indentLine/after/plugin/indentLine.vim
+343.390  003.286: loading after plugins
+343.402  000.012: inits 3
+349.605  006.203: reading viminfo
+349.672  000.067: setting raw mode
+349.680  000.008: start termcap
+349.724  000.044: clearing screen
+360.338  002.732  002.732: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/syntax/c.vim
+366.802  004.813  004.813: sourcing /Users/hei_threebody/.vim/bundle/vim-cpp-enhanced-highlight/after/syntax/c.vim
+368.568  012.421  004.876: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/syntax/cpp.vim
+380.104  008.942  008.942: sourcing /Users/hei_threebody/.vim/bundle/vim-cpp-enhanced-highlight/after/syntax/cpp.vim
+386.992  000.148  000.148: sourcing /Users/hei_threebody/.vim/bundle/splitjoin.vim/ftplugin/c/splitjoin.vim
+390.265  000.215  000.215: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/ftplugin/c.vim
+392.006  000.113  000.113: sourcing /Users/hei_threebody/.vim/bundle/vim-matchup/after/ftplugin/c_matchup.vim
+394.499  008.887  008.411: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/ftplugin/cpp.vim
+399.472  000.096  000.096: sourcing /usr/local/Cellar/macvim/8.1-151/MacVim.app/Contents/Resources/vim/runtime/indent/cpp.vim
+401.123  000.285  000.285: sourcing /Users/hei_threebody/.vim/bundle/vim-matchup/autoload/matchup/util.vim
+407.455  000.140  000.140: sourcing /Users/hei_threebody/.vim/bundle/vim-matchup/autoload/matchup/re.vim
+418.126  000.615  000.615: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/extensions.vim
+419.331  000.192  000.192: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/extensions/quickfix.vim
+420.396  000.123  000.123: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/extensions/netrw.vim
+421.357  000.110  000.110: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/extensions/term.vim
+422.536  000.244  000.244: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/extensions/ctrlp.vim
+423.686  000.175  000.175: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/extensions/tagbar.vim
+424.684  000.131  000.131: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/extensions/csv.vim
+425.992  000.291  000.291: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/extensions/whitespace.vim
+427.492  000.269  000.269: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/extensions/wordcount.vim
+428.867  000.381  000.381: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/extensions/tabline.vim
+429.987  000.165  000.165: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/extensions/tabline/autoshow.vim
+432.031  000.761  000.761: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/extensions/tabline/tabs.vim
+435.679  000.684  000.684: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/extensions/tabline/buffers.vim
+438.675  000.414  000.414: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/extensions/keymap.vim
+441.441  000.368  000.368: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/extensions/windowswap.vim
+449.943  006.920  006.920: sourcing /Users/hei_threebody/.vim/bundle/vimtex/autoload/vimtex.vim
+451.293  000.340  000.340: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/extensions/vimtex.vim
+463.261  000.245  000.245: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/section.vim
+464.804  000.644  000.644: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/highlighter.vim
+470.455  000.191  000.191: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/themes.vim
+470.802  001.633  001.442: sourcing /Users/hei_threebody/.vim/bundle/nord-vim/autoload/airline/themes/nord.vim
+496.206  000.425  000.425: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/builder.vim
+497.644  000.229  000.229: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/extensions/default.vim
+570.853  000.390  000.390: sourcing /Users/hei_threebody/.vim/bundle/ctrlp.vim/autoload/ctrlp/utils.vim
+574.721  178.477: opening buffers
+575.259  000.233  000.233: sourcing /Users/hei_threebody/.vim/bundle/LeaderF/autoload/lfMru.vim
+576.412  000.389  000.389: sourcing /Users/hei_threebody/.vim/bundle/vim-peekaboo/autoload/peekaboo.vim
+579.117  000.185  000.185: sourcing /Users/hei_threebody/.vim/bundle/vim-cursorword/autoload/cursorword.vim
+580.198  000.511  000.511: sourcing /Users/hei_threebody/.vim/bundle/vim-signature/autoload/signature/sign.vim
+581.532  000.606  000.606: sourcing /Users/hei_threebody/.vim/bundle/vim-signature/autoload/signature/mark.vim
+588.438  011.793: BufEnter autocommands
+588.447  000.009: editing files in windows
+590.170  001.341  001.341: sourcing /Users/hei_threebody/.vim/bundle/YouCompleteMe/autoload/youcompleteme.vim
+760.973  000.587  000.587: sourcing /Users/hei_threebody/.vim/bundle/vim-bookmarks/autoload/bm.vim
+763.409  001.200  001.200: sourcing /Users/hei_threebody/.vim/bundle/iCompleteMe/autoload/icompleteme.vim
+784.204  192.629: VimEnter autocommands
+784.248  000.044: before starting main loop
+796.670  005.616  005.616: sourcing /Users/hei_threebody/.vim/bundle/vim-matchup/autoload/matchup/pos.vim
+814.270  003.145  003.145: sourcing /Users/hei_threebody/.vim/bundle/vim-matchup/autoload/matchup/delim.vim
+820.193  000.503  000.503: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/extensions/tabline/ctrlspace.vim
+823.160  000.668  000.668: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/extensions/tabline/builder.vim
+825.538  000.370  000.370: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/extensions/tabline/buflist.vim
+836.343  000.213  000.213: sourcing /Users/hei_threebody/.vim/bundle/vim-devicons/autoload/airline/extensions/tabline/formatters/webdevicons.vim
+838.577  000.315  000.315: sourcing /Users/hei_threebody/.vim/bundle/vim-airline/autoload/airline/extensions/tabline/formatters/default.vim
+932.920  006.969  006.969: sourcing /Users/hei_threebody/.vim/bundle/tagbar/autoload/tagbar.vim
+933.699  000.331  000.331: sourcing /Users/hei_threebody/.vim/bundle/tagbar/autoload/tagbar/debug.vim
+1020.560  001.352  001.352: sourcing /Users/hei_threebody/.vim/bundle/tagbar/autoload/tagbar/types/uctags.vim
+1020.971  000.169  000.169: sourcing /Users/hei_threebody/.vim/bundle/tagbar/autoload/tagbar/prototypes/typeinfo.vim
+1048.784  000.475  000.475: sourcing /Users/hei_threebody/.vim/bundle/tagbar/autoload/tagbar/prototypes/fileinfo.vim
+1086.748  000.734  000.734: sourcing /Users/hei_threebody/.vim/bundle/tagbar/autoload/tagbar/prototypes/normaltag.vim
+1087.804  000.668  000.668: sourcing /Users/hei_threebody/.vim/bundle/tagbar/autoload/tagbar/prototypes/basetag.vim
+1091.831  000.331  000.331: sourcing /Users/hei_threebody/.vim/bundle/tagbar/autoload/tagbar/prototypes/kindheadertag.vim
+1093.477  000.297  000.297: sourcing /Users/hei_threebody/.vim/bundle/tagbar/autoload/tagbar/sorting.vim
+1094.756  000.319  000.319: sourcing /Users/hei_threebody/.vim/bundle/tagbar/autoload/tagbar/state.vim
+1096.631  000.399  000.399: sourcing /Users/hei_threebody/.vim/bundle/vim-windowswap/autoload/WindowSwap.vim
+1109.372  303.250: first screen update
+1109.375  000.003: --- VIM STARTED ---

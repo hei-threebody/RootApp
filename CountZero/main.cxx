@@ -18,6 +18,7 @@ using namespace std;
 
 void PrintRootInfo(char * s) {
     TFile *f = new TFile(s);
+
     TTree *kmfit = (TTree *) f->Get("kmfit");
     TTree *charged = (TTree *) f->Get("charged");
 
@@ -106,15 +107,11 @@ void PrintRootInfo(char * s) {
         // cout << "Files count is: " << argc - 1 << endl;
 
         if(argc > 1) {
-            TFile *argf[argc];
             for (int i = 1; i < argc; i++) {
                 // cout << "Reading file " << argv[i] << endl;
                 PrintRootInfo(argv[i]);
-            } 
+            }
         }
-
-
-
 
         // cout << "Initialing TBrowser" << endl;
         // TBrowser *b = new TBrowser();
