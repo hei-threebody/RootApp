@@ -33,13 +33,39 @@ void CountPdf(char *s) {
 
 	TH1F *countHF = new TH1F("count", "Diagnostic Count", 6, 0, 6);
 
+	int count0, count1, count2, count3, count4, count5, count6 = 0;
+
 	for (Int_t i = 0; i < (Int_t) diag->GetEntries(); i++) {
 		diag->GetEntry(i);
+		switch ((int)count) {
+			case 0:
+				count0++; break;
+			case 1:
+				count1++; break;
+			case 2:
+				count2++; break;
+			case 3:
+				count3++; break;
+			case 4:
+				count4++; break;
+			case 5:
+				count5++; break;
+			case 6:
+				count6++; break;
+		}
 		countHF->Fill(count);
 		// cout << count;
 	}
 
 	countHF->Draw();
+	
+	cout<< "BEGINSTATE: \t" << count0 << endl
+		<< "AFTER_PHOTON: \t" << count1 << endl
+		<< "AFTER_CHARGED: \t" << count2 << endl
+		<< "AFTER_PID: \t" << count3 << endl
+		<< "AFETR_FIRST_VALID: \t" << count4 << endl
+		<< "AFTER_SECOND_VALD: \t" <<count5 << endl
+		<< "AFTER_KMFIT: \t" << count6 << endl;		
 
 	// c1->Draw();
 	c1->Print("count.pdf");
