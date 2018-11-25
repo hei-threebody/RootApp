@@ -33,7 +33,7 @@ void CountPdf(char *s) {
 
 	TH1F *countHF = new TH1F("count", "Diagnostic Count", 6, 0, 6);
 
-	int count0, count1, count2, count3, count4, count5, count6 = 0;
+	int count0(0), count1(0), count2(0), count3(0), count4(0), count5(0), count6(0);
 
 	cout << count0 << count1 << count2 << count3 << count5 << count6 << endl;
 	for (Int_t i = 0; i < (Int_t) diag->GetEntries(); i++) {
