@@ -73,11 +73,11 @@ int main(int argc, char *argv[]) {
 	// cout << "Files count is: " << argc - 1 << endl;
 
 
-	if(argc > 1) {
+	if(argc > 2) {
 		for (int i = 1; i < argc; i++) {
 			// cout << "Reading file " << argv[i] << endl;
 			PrintCanvas(argv[i]);
-		} 
+		}
 	}
 
 

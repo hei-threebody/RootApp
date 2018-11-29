@@ -28,14 +28,14 @@ void CountPdf(char *s) {
 	// c1->Divide(2, 2);
 	TTree *diag = (TTree *) f->Get("diag");
 	Double_t count;
-	
+
 	diag->SetBranchAddress("count", &count);
 
 	TH1F *countHF = new TH1F("count", "Diagnostic Count", 6, 0, 6);
 
 	int count0(0), count1(0), count2(0), count3(0), count4(0), count5(0), count6(0);
 
-	cout << count0 << count1 << count2 << count3 << count5 << count6 << endl;
+	// cout << count0 << count1 << count2 << count3 << count5 << count6 << endl;
 	for (Int_t i = 0; i < (Int_t) diag->GetEntries(); i++) {
 		diag->GetEntry(i);
 		switch ((int)count) {
@@ -59,16 +59,18 @@ void CountPdf(char *s) {
 	}
 
 	countHF->Draw();
-	
-	cout<< "BEGINSTATE: \t" << count0 << endl
-		<< "AFTER_PHOTON: \t" << count1 << endl
-		<< "AFTER_CHARGED: \t" << count2 << endl
-		<< "AFTER_PID: \t" << count3 << endl
-		<< "AFETR_FIRST_VALID: \t" << count4 << endl
-		<< "AFTER_SECOND_VALD: \t" <<count5 << endl
-		<< "AFTER_KMFIT: \t" << count6 << endl;		
 
-	// c1->Draw();
+	// cout<< "BEGINSTATE: \t" << count0 << endl
+	//     << "AFTER_PHOTON: \t" << count1 << endl
+	//     << "AFTER_CHARGED: \t" << count2 << endl
+	//     << "AFTER_PID: \t" << count3 << endl
+	//     << "AFETR_FIRST_VALID: \t" << count4 << endl
+	//     << "AFTER_SECOND_VALD: \t" <<count5 << endl
+	//     << "AFTER_KMFIT: \t" << count6 << endl;
+    //
+
+	cout << "efficiency: " << (double)count6/count0 << endl;
+	c1->Draw();
 	c1->Print("count.pdf");
 }
 
@@ -83,7 +85,7 @@ int main(int argc, char *argv[]) {
 		for (int i = 1; i < argc; i++) {
 			// cout << "Reading file " << argv[i] << endl;
 			CountPdf(argv[i]);
-		} 
+		}
 	}
 
 
