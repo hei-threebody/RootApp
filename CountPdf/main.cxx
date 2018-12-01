@@ -31,7 +31,7 @@ void CountPdf(char *s) {
 
 	diag->SetBranchAddress("count", &count);
 
-	TH1F *countHF = new TH1F("count", "Diagnostic Count", 6, 0, 6);
+	TH1F *countHF = new TH1F("count", "Diagnostic Count", 7, 0, 7);
 
 	int count0(0), count1(0), count2(0), count3(0), count4(0), count5(0), count6(0);
 
