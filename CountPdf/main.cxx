@@ -61,11 +61,11 @@ void CountPdf(char *s) {
 	countHF->Draw();
 
 	cout<< "BEGINSTATE: \t" << count0 << endl
-	//     << "AFTER_PHOTON: \t" << count1 << endl
-	//     << "AFTER_CHARGED: \t" << count2 << endl
-	//     << "AFTER_PID: \t" << count3 << endl
-	//     << "AFETR_FIRST_VALID: \t" << count4 << endl
-	//     << "AFTER_SECOND_VALD: \t" <<count5 << endl
+		<< "AFTER_CHARGED: \t" << count1 << endl
+		<< "AFTER_PHOTON: \t" << count2 << endl
+		<< "AFTER_PID: \t" << count3 << endl
+		<< "AFETR_FIRST_VALID: \t" << count4 << endl
+		<< "AFTER_SECOND_VALD: \t" <<count5 << endl
 		<< "AFTER_KMFIT: \t" << count6 << endl;
     //
 
