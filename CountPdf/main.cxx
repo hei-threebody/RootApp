@@ -31,9 +31,9 @@ void CountPdf(char *s) {
 
 	diag->SetBranchAddress("count", &count);
 
-	TH1F *countHF = new TH1F("count", "Diagnostic Count", 7, 0, 7);
+	TH1F *countHF = new TH1F("count", "Diagnostic Count", 6, 0, 6);
 
-	int count0(0), count1(0), count2(0), count3(0), count4(0), count5(0), count6(0);
+	int count0(0), count1(0), count2(0), count3(0), count4(0), count5(0);
 
 	// cout << count0 << count1 << count2 << count3 << count5 << count6 << endl;
 	for (Int_t i = 0; i < (Int_t) diag->GetEntries(); i++) {
@@ -51,8 +51,6 @@ void CountPdf(char *s) {
 				count4++; break;
 			case 5:
 				count5++; break;
-			case 6:
-				count6++; break;
 		}
 		countHF->Fill(count);
 		// cout << count;
@@ -65,11 +63,10 @@ void CountPdf(char *s) {
 		<< "AFTER_PHOTON: \t" << count2 << endl
 		<< "AFTER_PID: \t" << count3 << endl
 		<< "AFETR_FIRST_VALID: \t" << count4 << endl
-		<< "AFTER_SECOND_VALD: \t" <<count5 << endl
-		<< "AFTER_KMFIT: \t" << count6 << endl;
+		<< "AFTER_SECOND_VALD: \t" <<count5 << endl;
     //
 
-	cout << "efficiency: " << (double)count6/count0 << endl;
+	cout << "efficiency: " << (double)count5/count0 << endl;
 	c1->Draw();
 	c1->Print("count.pdf");
 }
