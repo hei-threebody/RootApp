@@ -62,8 +62,8 @@ void CountPdf(char *s) {
 		<< "AFTER_CHARGED: \t" << count1 << endl
 		<< "AFTER_PHOTON: \t" << count2 << endl
 		<< "AFTER_PID: \t" << count3 << endl
-		<< "AFETR_FIRST_VALID: \t" << count4 << endl
-		<< "AFTER_SECOND_VALD: \t" <<count5 << endl;
+		<< "AFTER_VERTEX: \t" << count4 << endl
+		<< "AFTER_KMFIT: \t" <<count5 << endl;
     //
 
 	cout << "efficiency: " << (double)count5/count0 << endl;
