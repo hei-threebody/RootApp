@@ -12,6 +12,8 @@
 #include "TBrowser.h"
 #include "TH1F.h"
 #include "THStack.h"
+
+// #define RUN 1
 // #include "TPostScript.h"
 // #include "RooRealVar.h"
 
@@ -39,7 +41,9 @@ void PrintCanvas(char *s) {
 	TH1F *sigmasbarHF  = new TH1F("sigmasbar", "#Sigma^{0}(#bar{#lambda} + #gamma) invariant mass", 100, 1.08, 1.3);
 
 	for (Int_t i = 0; i < (Int_t) PrSth->GetEntries(); i++) {
+		cout << i << endl;
 		PrSth->GetEntry(i);
+		if (lmdmas == 0) continue;
 		lmdmasHF->Fill(lmdmas);
 		lmdmasbarHF->Fill(lmdmasbar);
 		sigmasHF->Fill(sigmas);
@@ -73,9 +77,9 @@ int main(int argc, char *argv[]) {
 	// cout << "Files count is: " << argc - 1 << endl;
 
 
-	if(argc > 2) {
+	if(argc > 1) {
 		for (int i = 1; i < argc; i++) {
-			// cout << "Reading file " << argv[i] << endl;
+			cout << "Reading file " << argv[i] << endl;
 			PrintCanvas(argv[i]);
 		}
 	}
