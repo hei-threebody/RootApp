@@ -37,8 +37,8 @@ void PrintCanvas(char *s) {
 	PrSth->SetBranchAddress("sigmasbar", &sigmasbar);
 	TH1F *lmdmasHF    = new TH1F("lmdmas", "#lambda invariant mass", 100, 1.08, 1.18);
 	TH1F *lmdmasbarHF = new TH1F("lmdmasbar", "#bar{#lambda} invariant mass", 100, 1.08, 1.18);
-	TH1F *sigmasHF  = new TH1F("sigmas", "#Sigma^{0}(#lambda + #gamma) invariant mass", 100, 1.1, 1.7);
-	TH1F *sigmasbarHF  = new TH1F("sigmasbar", "#Sigma^{0}(#bar{#lambda} + #gamma) invariant mass", 100, 1.08, 1.3);
+	TH1F *sigmasHF  = new TH1F("sigmas", "#Sigma^{0}(#lambda + #gamma) invariant mass", 50, 1.1, 1.3);
+	TH1F *sigmasbarHF  = new TH1F("sigmasbar", "#Sigma^{0}(#bar{#lambda} + #gamma) invariant mass", 50, 1.1, 1.3);
 
 	for (Int_t i = 0; i < (Int_t) PrSth->GetEntries(); i++) {
 		cout << i << endl;
